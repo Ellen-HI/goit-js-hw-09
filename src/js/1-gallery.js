@@ -70,7 +70,6 @@ const container = document.querySelector('.gallery');
 
 container.insertAdjacentHTML('beforeend', createMarkup(images));
 const lightbox = new SimpleLightbox('.gallery a', {
-  captions: true,
   captionDelay: 250,
   captionsData: 'alt',
 });
